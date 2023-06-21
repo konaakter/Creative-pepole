@@ -14,8 +14,9 @@ import Todos from './Pages/Todos/Todos.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>,
     errorElement: <ErrorPage></ErrorPage>,
+    element: <Main></Main>,
+    
     children: [
       {
         path: "/",
