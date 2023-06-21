@@ -13,7 +13,7 @@ import usetitle from '../../../Hooktitle/usetitle';
 const Home = () => {
     usetitle('Home')
     return (
-        <div>
+        <div className=' overflow-hidden'>
            <Banner></Banner> 
            <Tools></Tools>
            <About></About>

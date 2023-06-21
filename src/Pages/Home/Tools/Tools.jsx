@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Tools = () => {
+    
     return (
         <div className=' w-9/12 mx-auto'>
             <div className=' grid lg:grid-cols-5  gap-x-40 lg:gap-2   lg:justify-evenly py-16'>

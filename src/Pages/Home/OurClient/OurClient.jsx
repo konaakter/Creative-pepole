@@ -2,8 +2,8 @@ import React from 'react';
 import im1 from '../../../img/Image (5).png'
 import im2 from '../../../img/clienr.png'
 import { FaPlayCircle, FaYoutube } from 'react-icons/fa';
-import Modal from './Modal';
 import bgelement from '../../../img/BG Elements (1).png'
+import Modal from './Modal';
 
 
 const OurClient = () => {
@@ -31,7 +31,7 @@ const OurClient = () => {
                         <div className=' grid lg:grid-cols-2 bg-white shadow-2xl relative lg:w-9/12 mx-auto w-11/12 -mt-24 lg:-mt-40'>
                             <div>
                                 <img className=' h-96 relative' src={im1} alt="" srcset="" />
-                                <button onClick={() => window.my_modal_5.showModal()} className=' absolute  -mt-52  ml-40 border border-[#FD9C06] border-opacity-60 bg-[#FD9C06] bg-opacity-30  rounded-full p-3'><FaPlayCircle className=' text-5xl  text-white bg-[#FD9C06] p-2 border border-[#FD9C06] rounded-full'></FaPlayCircle></button>
+                                <button onClick={() => window.my_modal_5.showModal()}  className=' absolute  -mt-52  ml-40 border border-[#FD9C06] border-opacity-60 bg-[#FD9C06] bg-opacity-30  rounded-full p-3'><FaPlayCircle className=' text-5xl  text-white bg-[#FD9C06] p-2 border border-[#FD9C06] rounded-full'></FaPlayCircle></button>
                             </div>
 
 

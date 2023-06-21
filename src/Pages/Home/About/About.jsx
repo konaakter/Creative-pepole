@@ -2,7 +2,8 @@ import React from 'react';
 import img from '../../../img/Image.png'
 import CountUp from 'react-countup';
 import { FaPlayCircle } from 'react-icons/fa';
-import Modal from '../OurClient/Modal';
+import Modaal from './Modaal';
+
 
 
 const About = () => {
@@ -17,7 +18,7 @@ const About = () => {
                         
                         <div className='lg:ml-[280px] mt-52'>
                         <div className=' flex gap-6 items-center '>
-                            <button > <FaPlayCircle className=' text-5xl'></FaPlayCircle></button>
+                            <button onClick={()=>window.my_modal_3.showModal()} > <FaPlayCircle className=' text-5xl'></FaPlayCircle></button>
                        
                         <p>More About CP.</p>
                         </div>
@@ -25,6 +26,8 @@ const About = () => {
                         </div>
                        
                     </div>
+                    <Modaal></Modaal>
+                   
                 </div>
                 <div>
                     <div className='  lg:w-[420px] w-80 lg:ms-0 ms-8 '>
@@ -81,6 +84,8 @@ const About = () => {
 
 
             </div>
+            
+           
             
         </div>
     );
