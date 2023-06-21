@@ -1,7 +1,7 @@
 import React from 'react';
 import img from '../../../img/Image.png'
 import CountUp from 'react-countup';
-import { FaPlayCircle } from 'react-icons/fa';
+import { FaArrowRight, FaPlayCircle } from 'react-icons/fa';
 import Modaal from './Modaal';
 
 
@@ -45,7 +45,9 @@ const About = () => {
 
 
                     </div>
-                    <button className=' border bg-[#495AF0] text-white lg:ms-0 ms-8  py-2 px-4 mt-8'>Discover more</button>
+                    <button className=' border bg-[#495AF0] text-white  py-2 px-4 mt-8 inline-flex items-center gap-3'>
+                    More About Us <FaArrowRight className=' -rotate-45'></FaArrowRight> 
+                        </button>
                     <div className=' grid lg:grid-cols-3 grid-cols-2 gap-x-4 w-72 lg:w-[550px] pt-8  lg:ms-0 ms-7'>
                         <div className=' space-y-2'>
                             <hr />

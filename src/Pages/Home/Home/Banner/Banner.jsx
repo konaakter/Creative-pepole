@@ -12,6 +12,7 @@ import chart from '../../../../img/Group 1000007003 (1).png'
 
 import { Rating } from '@smastrom/react-rating';
 import '@smastrom/react-rating/style.css'
+import { FaArrowRight } from 'react-icons/fa';
 
 
 
@@ -36,7 +37,9 @@ const Banner = () => {
                         <p className=' text-[#404040] w-80'>
                             Consultancy firm established by professionals with the intention to identify and unlock potential avenues for innovative ideas
                         </p>
-                        <button className=' border bg-[#495AF0] text-white  py-2 px-4 mt-8'>Discover more</button>
+                        <button className=' border bg-[#495AF0] text-white  py-2 px-4 mt-8 inline-flex items-center gap-3'>Discover more
+                        <FaArrowRight className=' -rotate-45'></FaArrowRight> 
+                        </button>
                         <div className=' flex items-center gap-3'>
                             <div className=' flex mt-6'>
                                 <div className='  '>

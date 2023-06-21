@@ -19,7 +19,7 @@ import "react-circular-progressbar/dist/styles.css";
 
 // Radial separators
 import ChangingProgressProvider from '../../../Hooktitle/ChangingProgressProvider';
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowCircleRight, FaArrowRight } from 'react-icons/fa';
 
 const percentage = 66;
 
@@ -61,7 +61,9 @@ const Features = () => {
                             <p className=' text-[#5B5F77]'>Through our Connected Content™ approach, we unite communications, digital experiences, and performance marketing to help more than 1600 global companies.</p>
                         </div>
                     </div>
-                    <button className=' border bg-[#495AF0] text-white  py-2 px-4 mt-8'>Discover more</button>
+                    <button className=' border bg-[#495AF0] text-white  py-2 px-4 mt-8 inline-flex items-center gap-3'>Discover more
+                        <FaArrowRight className=' -rotate-45'></FaArrowRight> 
+                        </button>
                 </div>
                 <div>
                     <div className='text-[#404040]'>

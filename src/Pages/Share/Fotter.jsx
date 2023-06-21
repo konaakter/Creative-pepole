@@ -5,7 +5,7 @@ import { FaEnvelope, FaLinkedinIn, FaPhone, FaTencentWeibo, FaTwitter } from 're
 
 const Fotter = () => {
     return (
-        <div className='   bg-[#0F0F0F] '>
+        <div className='   bg-[#0F0F0F] overflow-hidden '>
             <div className=''>
                 <div className=' text-[#B4B4B4]   w-9/12 mx-auto'>
                     <div className=' lg:flex justify-between pt-20'>
@@ -15,9 +15,7 @@ const Fotter = () => {
                         </div>
                         <div>
                             <div className="form-control">
-                                <label className="label">
-
-                                </label>
+                               
                                 <label className="input-group">
                                     <input type="text" placeholder="Enter your email" className="input input-bordered" />
                                     <span className=' bg-[#495AF0] text-white'>Subscribe</span>

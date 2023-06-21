@@ -8,7 +8,7 @@ import { FaArrowRight, FaCommentAlt, FaEye } from 'react-icons/fa';
 
 const GetUpdate = () => {
     return (
-        <div className=' w-9/12 mx-auto mb-10'>
+        <div className=' w-9/12 mx-auto mb-24'>
 
             <div class=" text-center">
 

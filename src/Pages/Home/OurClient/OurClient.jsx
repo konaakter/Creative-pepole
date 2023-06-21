@@ -1,7 +1,7 @@
 import React from 'react';
 import im1 from '../../../img/Image (5).png'
 import im2 from '../../../img/clienr.png'
-import { FaPlayCircle, FaYoutube } from 'react-icons/fa';
+import { FaArrowRight, FaPlayCircle, FaYoutube } from 'react-icons/fa';
 import bgelement from '../../../img/BG Elements (1).png'
 import Modal from './Modal';
 
@@ -16,7 +16,9 @@ const OurClient = () => {
                             <div className=' lg:flex justify-between'>
                                 <h1 className=' text-[54px] font-bold'>Our Client Says Their <br /> Satisfaction</h1>
                                 <div>
-                                    <button className=' border bg-[#495AF0] text-white  py-2 px-4 mt-8'>Discover more</button>
+                                <button className=' border bg-[#495AF0] text-white  py-2 px-4 mt-8 inline-flex items-center gap-3'>Discover more
+                        <FaArrowRight className=' -rotate-45'></FaArrowRight> 
+                        </button>
                                 </div>
 
 
