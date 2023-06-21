@@ -16,7 +16,7 @@ const About = () => {
                     <div >
 
                         
-                        <div className='lg:ml-[280px] mt-52'>
+                        <div className='lg:ml-[280px] ml-20 mt-52'>
                         <div className=' flex gap-6 items-center '>
                             <button onClick={()=>window.my_modal_3.showModal()} > <FaPlayCircle className=' text-5xl'></FaPlayCircle></button>
                        
